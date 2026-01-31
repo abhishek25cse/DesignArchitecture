@@ -357,3 +357,110 @@ class Directory implements FileSystemComponent {
 - Want to represent part-whole hierarchies of objects
 - Want clients to ignore difference between compositions of objects and individual objects
 - Structure can have any level of complexity and is dynamic
+
+## Current World Examples & Famous Products
+
+### 1. **File Systems**
+- **Windows Explorer**: Folders containing files and other folders
+- **macOS Finder**: Directory tree structure
+- **Linux**: File system hierarchy (directories and files)
+- **Google Drive**: Nested folders and files
+- **Dropbox**: Folder and file organization
+
+### 2. **Organization Charts**
+- **Microsoft Visio**: Organizational hierarchy diagrams
+- **Lucidchart**: Company structure charts
+- **OrgChart**: Employee hierarchy visualization
+- **BambooHR**: Organization structure management
+- **Workday**: Corporate hierarchy representation
+
+### 3. **UI Component Libraries**
+- **React**: Component tree (components containing other components)
+- **Angular**: Component hierarchy
+- **Vue.js**: Nested component structure
+- **SwiftUI**: View hierarchy
+- **Android Views**: ViewGroup containing Views
+
+### 4. **Graphics & Design**
+- **Adobe Illustrator**: Groups of shapes and objects
+- **Figma**: Frames containing nested elements
+- **Sketch**: Artboards with nested layers
+- **Photoshop**: Layer groups
+- **Blender**: Object hierarchies and parenting
+
+### 5. **Document Editors**
+- **Microsoft Word**: Sections, paragraphs, sentences, words
+- **Google Docs**: Document structure with nested elements
+- **Notion**: Nested pages and blocks
+- **Confluence**: Page hierarchy
+- **Evernote**: Notebooks, stacks, and notes
+
+### 6. **E-Commerce**
+- **Amazon**: Product categories and subcategories
+- **eBay**: Category tree structure
+- **Shopify**: Collection hierarchy
+- **WooCommerce**: Product category tree
+- **Etsy**: Shop sections and listings
+
+### 7. **Project Management**
+- **Jira**: Epics, stories, subtasks
+- **Asana**: Projects, sections, tasks, subtasks
+- **Trello**: Boards, lists, cards, checklists
+- **Monday.com**: Boards, groups, items, subitems
+- **Microsoft Project**: Task hierarchy with dependencies
+
+### 8. **Menu Systems**
+- **Restaurant menus**: Categories, subcategories, items
+- **Windows Start Menu**: Nested program groups
+- **macOS Menu Bar**: Hierarchical menus
+- **Website navigation**: Multi-level dropdown menus
+- **Mobile app menus**: Nested navigation drawers
+
+### 9. **Social Media**
+- **Reddit**: Subreddits, posts, comments, nested replies
+- **Facebook**: Groups, posts, comments, nested comments
+- **Twitter/X**: Threads with nested replies
+- **LinkedIn**: Company pages, departments, employees
+- **Discord**: Servers, categories, channels
+
+### 10. **Geographic Information**
+- **Google Maps**: Countries, states, cities, streets
+- **OpenStreetMap**: Geographic hierarchy
+- **GPS navigation**: Route segments and waypoints
+- **GIS systems**: Spatial data hierarchies
+- **Uber**: Service areas and zones
+
+### 11. **Music & Media**
+- **Spotify**: Playlists, albums, tracks
+- **iTunes**: Library, playlists, songs
+- **YouTube**: Channels, playlists, videos
+- **Netflix**: Categories, series, episodes
+- **Plex**: Libraries, collections, media items
+
+### 12. **Enterprise Software**
+- **SAP**: Business process hierarchies
+- **Salesforce**: Account hierarchies, opportunity structures
+- **Oracle**: Database object hierarchies
+- **ServiceNow**: Service catalog structure
+- **Workday**: Organizational and financial hierarchies
+
+### 13. **Gaming**
+- **Unity**: GameObject hierarchy in scenes
+- **Unreal Engine**: Actor hierarchy
+- **Minecraft**: Block structures and buildings
+- **The Sims**: Room and furniture hierarchies
+- **Game UI**: Menu systems with nested elements
+
+### 14. **Email & Communication**
+- **Gmail**: Labels and nested labels
+- **Outlook**: Folder hierarchy
+- **Slack**: Workspaces, channels, threads
+- **Microsoft Teams**: Teams, channels, conversations
+- **Telegram**: Folders and chats
+
+### 15. **Development Tools**
+- **Git**: Repository, branches, commits, files
+- **npm**: Package dependencies tree
+- **Docker**: Container hierarchies
+- **Kubernetes**: Cluster, namespaces, pods, containers
+- **Visual Studio**: Solution, projects, folders, files

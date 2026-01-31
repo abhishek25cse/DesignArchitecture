@@ -312,3 +312,110 @@ class StatisticsDisplay implements WeatherObserver {
 - When an abstraction has two aspects, one dependent on the other
 - When a change to one object requires changing others
 - When an object should be able to notify other objects without assumptions about who those objects are
+
+## Current World Examples & Famous Products
+
+### 1. **Social Media Notifications**
+- **Facebook**: Post likes, comments, friend requests notifications
+- **Instagram**: Follower activity, likes, comments alerts
+- **Twitter/X**: Tweet interactions, mentions, retweets
+- **LinkedIn**: Connection requests, post engagement
+- **TikTok**: Video likes, comments, follower notifications
+
+### 2. **Messaging Apps**
+- **WhatsApp**: Message delivery, read receipts, group updates
+- **Telegram**: Channel updates, bot notifications
+- **Slack**: Channel messages, mentions, thread replies
+- **Discord**: Server updates, DM notifications
+- **Microsoft Teams**: Chat notifications, meeting reminders
+
+### 3. **E-Commerce & Shopping**
+- **Amazon**: Price drop alerts, order status updates, delivery notifications
+- **eBay**: Bid updates, auction ending alerts
+- **Shopify**: Inventory alerts, order notifications
+- **Etsy**: Shop update notifications, favorite item alerts
+- **AliExpress**: Flash sale notifications, shipping updates
+
+### 4. **Stock & Finance**
+- **Robinhood**: Stock price alerts, portfolio changes
+- **Bloomberg Terminal**: Market data updates, news alerts
+- **Yahoo Finance**: Watchlist notifications
+- **Coinbase**: Cryptocurrency price alerts
+- **E*TRADE**: Trade execution notifications
+
+### 5. **News & Media**
+- **Google News**: Breaking news alerts
+- **Apple News**: Story notifications
+- **Flipboard**: Topic updates
+- **Reddit**: Subreddit post notifications, comment replies
+- **Medium**: Story publication notifications
+
+### 6. **Email Services**
+- **Gmail**: New email notifications, label updates
+- **Outlook**: Email arrival, calendar reminders
+- **Apple Mail**: VIP sender notifications
+- **ProtonMail**: Encrypted email alerts
+- **Thunderbird**: New message notifications
+
+### 7. **Development & DevOps**
+- **GitHub**: Pull request updates, issue comments, CI/CD status
+- **GitLab**: Pipeline notifications, merge request updates
+- **Jenkins**: Build status notifications
+- **Jira**: Issue updates, sprint changes
+- **Slack integrations**: CI/CD alerts, deployment notifications
+
+### 8. **Cloud Services**
+- **AWS CloudWatch**: Metric alarms, log alerts
+- **Azure Monitor**: Resource alerts, health notifications
+- **Google Cloud Monitoring**: Alert policies
+- **Datadog**: System monitoring alerts
+- **New Relic**: Performance alerts
+
+### 9. **Smart Home & IoT**
+- **Nest**: Temperature changes, motion detection
+- **Ring**: Doorbell press, motion alerts
+- **Philips Hue**: Light status changes
+- **SmartThings**: Device state changes
+- **IFTTT**: Trigger-based notifications
+
+### 10. **Streaming Services**
+- **Netflix**: New episode releases, recommendations
+- **YouTube**: Channel uploads, live stream starts
+- **Spotify**: New music releases, playlist updates
+- **Twitch**: Streamer going live, raid notifications
+- **Disney+**: New content alerts
+
+### 11. **Gaming**
+- **Steam**: Game updates, friend activity, sale notifications
+- **PlayStation Network**: Trophy unlocks, friend online status
+- **Xbox Live**: Achievement notifications, party invites
+- **Discord**: Voice channel joins, server events
+- **Epic Games**: Free game notifications
+
+### 12. **Fitness & Health**
+- **Fitbit**: Goal achievements, heart rate alerts
+- **Apple Health**: Activity reminders, health metrics
+- **Strava**: Segment achievements, follower activity
+- **MyFitnessPal**: Calorie goal notifications
+- **Peloton**: Class reminders, leaderboard updates
+
+### 13. **Travel & Transportation**
+- **Uber**: Driver arrival, trip updates
+- **Lyft**: Ride status notifications
+- **Google Maps**: Traffic alerts, route changes
+- **Airbnb**: Booking confirmations, host messages
+- **Flight trackers**: Delay alerts, gate changes
+
+### 14. **Weather & Emergency**
+- **Weather apps**: Severe weather alerts, forecast changes
+- **FEMA**: Emergency notifications
+- **Amber Alerts**: Missing person notifications
+- **Earthquake alerts**: Seismic activity warnings
+- **Flood warnings**: Weather service alerts
+
+### 15. **Framework Implementations**
+- **RxJS**: Reactive programming observables
+- **Redux**: State change subscriptions
+- **Vue.js**: Reactive data binding
+- **Angular**: Change detection system
+- **MobX**: Observable state management

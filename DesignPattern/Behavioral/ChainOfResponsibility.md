@@ -334,3 +334,110 @@ public class SupportDemo {
 - Handler isn't known a priori
 - Set of objects that can handle request should be specified dynamically
 - Want to issue request to one of several objects without specifying receiver explicitly
+
+## Current World Examples & Famous Products
+
+### 1. **Customer Support Systems**
+- **Zendesk**: Ticket escalation (L1 → L2 → L3 support)
+- **Freshdesk**: Support tier routing
+- **Intercom**: Message routing to appropriate team
+- **Help Scout**: Conversation assignment chain
+- **ServiceNow**: Incident escalation workflow
+
+### 2. **Logging Frameworks**
+- **Log4j**: Logger hierarchy (DEBUG → INFO → WARN → ERROR)
+- **SLF4J**: Logging level chain
+- **Winston**: Transport chain in Node.js
+- **Serilog**: Sink pipeline
+- **NLog**: Target chain
+
+### 3. **Web Server Middleware**
+- **Express.js**: Middleware chain (auth → validation → business logic)
+- **ASP.NET**: HTTP pipeline middleware
+- **Django**: Middleware stack
+- **Spring**: Filter chain
+- **Koa**: Middleware cascade
+
+### 4. **Event Handling**
+- **DOM Events**: Event bubbling (child → parent → document)
+- **Android**: Touch event handling chain
+- **iOS**: Responder chain
+- **Windows**: Message routing
+- **Qt**: Event propagation
+
+### 5. **Approval Workflows**
+- **Jira**: Approval chain for requests
+- **SAP**: Purchase order approval hierarchy
+- **Salesforce**: Approval processes
+- **Microsoft Dynamics**: Workflow approval
+- **Oracle**: Approval routing
+
+### 6. **Security & Authentication**
+- **Spring Security**: Filter security chain
+- **Passport.js**: Strategy chain
+- **OAuth**: Authorization chain
+- **SAML**: Authentication chain
+- **JWT**: Token validation chain
+
+### 7. **Payment Processing**
+- **Stripe**: Payment method fallback chain
+- **PayPal**: Payment source priority
+- **Square**: Payment processor chain
+- **Braintree**: Payment method cascade
+- **Adyen**: Payment routing chain
+
+### 8. **Email Filtering**
+- **Gmail**: Spam filter chain
+- **Outlook**: Rule processing chain
+- **SpamAssassin**: Filter chain
+- **MailScanner**: Virus and spam checking chain
+- **Postfix**: Mail filter chain
+
+### 9. **Exception Handling**
+- **Java**: Try-catch chain
+- **Python**: Exception handler chain
+- **JavaScript**: Error boundary chain
+- **C++**: Exception propagation
+- **C#**: Exception filter chain
+
+### 10. **Network Protocols**
+- **TCP/IP**: Protocol stack (Application → Transport → Network → Link)
+- **HTTP**: Proxy chain
+- **Firewall**: Rule chain processing
+- **Load balancers**: Server selection chain
+- **CDN**: Cache hierarchy
+
+### 11. **Content Moderation**
+- **Facebook**: Content review escalation
+- **YouTube**: Video moderation chain
+- **Reddit**: Moderator hierarchy
+- **Discord**: Auto-mod → moderator → admin
+- **Twitch**: Chat moderation chain
+
+### 12. **Request Routing**
+- **AWS API Gateway**: Request routing chain
+- **Nginx**: Location matching chain
+- **Apache**: .htaccess rule chain
+- **Kong**: Plugin chain
+- **Envoy**: Filter chain
+
+### 13. **Validation Pipelines**
+- **Form validation**: Field validators chain
+- **Data validation**: Rule chain processing
+- **Schema validation**: Validator chain
+- **Input sanitization**: Filter chain
+- **Business rule validation**: Rule engine chain
+
+### 14. **Game Development**
+- **Input handling**: Controller → game object chain
+- **Collision detection**: Collision handler chain
+- **AI decision making**: Behavior tree chain
+- **Event systems**: Event handler chain
+- **Command processing**: Command chain
+
+### 15. **CI/CD Pipelines**
+- **Jenkins**: Build step chain
+- **GitLab CI**: Job dependency chain
+- **GitHub Actions**: Workflow step chain
+- **CircleCI**: Pipeline chain
+- **Travis CI**: Build phase chain

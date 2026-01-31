@@ -469,3 +469,110 @@ print(source.read_data())
 - Responsibilities can be withdrawn
 - Extension by subclassing is impractical (large number of independent extensions possible)
 - Want to add functionality without modifying existing code
+
+## Current World Examples & Famous Products
+
+### 1. **Text Editors & Word Processors**
+- **Microsoft Word**: Text formatting (bold, italic, underline, color, highlight)
+- **Google Docs**: Layered text styling
+- **Notion**: Block decorators (callouts, toggles, columns)
+- **VS Code**: Syntax highlighting, linting decorators
+- **Sublime Text**: Multiple cursor decorators
+
+### 2. **Image Editing**
+- **Photoshop**: Layer effects (drop shadow, glow, bevel, overlay)
+- **Instagram**: Photo filters stacked on images
+- **Snapchat**: Face filters and lenses
+- **TikTok**: Video effects and filters
+- **GIMP**: Layer decorators
+
+### 3. **Web Browsers**
+- **Chrome Extensions**: Ad blockers, password managers, grammar checkers
+- **Firefox Add-ons**: Privacy tools, theme decorators
+- **Safari Extensions**: Content blockers, reading mode
+- **Edge**: Vertical tabs, collections decorators
+- **Brave**: Built-in ad blocking and privacy decorators
+
+### 4. **Streaming Services**
+- **Netflix**: Subtitles, audio descriptions, playback speed decorators
+- **YouTube**: Closed captions, quality settings, speed controls
+- **Spotify**: Equalizer, crossfade, gapless playback
+- **Twitch**: Chat overlays, emote decorators
+- **Disney+**: GroupWatch, download decorators
+
+### 5. **E-Commerce**
+- **Amazon**: Gift wrapping, express shipping, insurance decorators
+- **Shopify**: Product options (engraving, customization, gift messages)
+- **Etsy**: Personalization options
+- **eBay**: Listing upgrades (bold, highlight, featured)
+- **Uber Eats**: Extra toppings, special instructions
+
+### 6. **Coffee Shops & Food**
+- **Starbucks**: Drink modifiers (extra shot, soy milk, whipped cream, flavor pumps)
+- **Chipotle**: Burrito add-ons (guacamole, queso, extra protein)
+- **Subway**: Sandwich toppings and extras
+- **Pizza chains**: Toppings, crust types, sauce options
+- **Smoothie King**: Enhancers and supplements
+
+### 7. **Mobile Apps**
+- **iOS**: App badges, notifications, widgets
+- **Android**: Notification decorators, app shortcuts
+- **WhatsApp**: Message reactions, formatting (bold, italic, strikethrough)
+- **Telegram**: Message decorators (spoilers, code blocks)
+- **Discord**: Message embeds, reactions
+
+### 8. **Cloud Services**
+- **AWS**: Security groups, encryption, monitoring decorators
+- **Azure**: Resource tags, locks, policies
+- **Google Cloud**: Labels, encryption, logging
+- **Heroku**: Add-ons (databases, monitoring, caching)
+- **DigitalOcean**: Droplet backups, monitoring, firewalls
+
+### 9. **Development Frameworks**
+- **Express.js**: Middleware decorators (authentication, logging, compression)
+- **Spring**: Annotations (@Transactional, @Cacheable, @Async)
+- **Django**: Decorators (@login_required, @cache_page)
+- **Angular**: Decorators (@Component, @Injectable)
+- **Python**: Function decorators (@staticmethod, @property, @lru_cache)
+
+### 10. **Gaming**
+- **Minecraft**: Enchantments on items
+- **RPGs**: Equipment modifiers (gems, runes, enchantments)
+- **Fortnite**: Skin wraps and back bling
+- **League of Legends**: Champion skins and chromas
+- **World of Warcraft**: Item enhancements and transmogrification
+
+### 11. **Social Media**
+- **Instagram**: Story stickers, filters, music, polls
+- **Facebook**: Post reactions, comment decorators
+- **Twitter/X**: Tweet formatting, media attachments
+- **LinkedIn**: Post formatting, document attachments
+- **Pinterest**: Pin descriptions, board covers
+
+### 12. **Email Clients**
+- **Gmail**: Labels, stars, importance markers, snooze
+- **Outlook**: Categories, flags, follow-up reminders
+- **Apple Mail**: VIP markers, flags
+- **Thunderbird**: Tags, stars
+- **ProtonMail**: Encryption, expiration decorators
+
+### 13. **Project Management**
+- **Jira**: Issue labels, flags, watchers
+- **Trello**: Card labels, due dates, checklists, attachments
+- **Asana**: Task tags, custom fields, dependencies
+- **Monday.com**: Column decorators, automations
+- **Notion**: Page properties, relations, rollups
+
+### 14. **Transportation**
+- **Uber**: Ride options (UberX + car seat, priority pickup, quiet mode)
+- **Lyft**: Ride preferences (extra stops, preferred arrival time)
+- **Airlines**: Seat selection, extra legroom, priority boarding, baggage
+- **Hotels**: Room upgrades, late checkout, breakfast
+- **Car rentals**: GPS, insurance, additional driver
+
+### 15. **Security & Privacy**
+- **VPN services**: Kill switch, split tunneling, ad blocking
+- **Password managers**: 2FA, breach monitoring, secure sharing
+- **Antivirus**: Real-time protection, firewall, VPN
+- **Encryption tools**: Compression, password protection
+- **Firewalls**: Intrusion detection, logging, alerts

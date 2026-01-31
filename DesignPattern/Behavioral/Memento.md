@@ -163,3 +163,110 @@ originator.restore_from_memento(caretaker.get_memento(1))
 
 - Snapshot of object's state must be saved for later restoration
 - Direct interface to obtain state would expose implementation details and break encapsulation
+
+## Current World Examples & Famous Products
+
+### 1. **Text Editors & IDEs**
+- **Microsoft Word**: Document version history, undo/redo
+- **Google Docs**: Revision history with restore
+- **VS Code**: File state snapshots, undo stack
+- **IntelliJ IDEA**: Local history, undo operations
+- **Sublime Text**: Edit history management
+
+### 2. **Graphics & Design Software**
+- **Photoshop**: History panel, snapshots
+- **Illustrator**: Undo states
+- **Figma**: Version history
+- **Sketch**: Document versions
+- **GIMP**: Undo history
+
+### 3. **Database Systems**
+- **MySQL**: Transaction savepoints
+- **PostgreSQL**: Point-in-time recovery
+- **Oracle**: Flashback technology
+- **SQL Server**: Database snapshots
+- **MongoDB**: Snapshot isolation
+
+### 4. **Version Control Systems**
+- **Git**: Commit history, stash
+- **SVN**: Repository snapshots
+- **Mercurial**: Changeset history
+- **Perforce**: Shelving changes
+- **GitHub**: Branch snapshots
+
+### 5. **Gaming**
+- **Save games**: Game state snapshots
+- **Emulators**: Save states
+- **Dark Souls**: Bonfire checkpoints
+- **Civilization**: Turn-based saves
+- **RPGs**: Quick save/load
+
+### 6. **Virtual Machines**
+- **VMware**: VM snapshots
+- **VirtualBox**: Machine state snapshots
+- **Hyper-V**: Checkpoints
+- **Parallels**: Snapshots
+- **QEMU**: VM state saving
+
+### 7. **Mobile Apps**
+- **iOS**: App state preservation
+- **Android**: Activity state bundles
+- **React Native**: State persistence
+- **Flutter**: State restoration
+- **Xamarin**: Page state management
+
+### 8. **Web Browsers**
+- **Chrome**: Tab state restoration
+- **Firefox**: Session restore
+- **Safari**: Browsing state recovery
+- **Edge**: Tab recovery
+- **Opera**: Session management
+
+### 9. **Cloud Storage**
+- **Dropbox**: File version history
+- **Google Drive**: Version management
+- **OneDrive**: File versioning
+- **Box**: Version control
+- **iCloud**: Document versions
+
+### 10. **Backup Systems**
+- **Time Machine**: System snapshots
+- **Windows Backup**: System restore points
+- **Acronis**: Image backups
+- **Veeam**: VM snapshots
+- **Carbonite**: File versioning
+
+### 11. **E-Commerce Shopping**
+- **Amazon**: Saved carts
+- **Shopping cart persistence**: Session state
+- **Wishlist**: Saved item states
+- **Checkout recovery**: Form state preservation
+- **Order drafts**: Incomplete order states
+
+### 12. **Form Builders**
+- **Google Forms**: Draft saving
+- **Typeform**: Response drafts
+- **JotForm**: Form state preservation
+- **SurveyMonkey**: Survey progress saving
+- **Microsoft Forms**: Draft responses
+
+### 13. **Project Management**
+- **Jira**: Issue history
+- **Trello**: Card history
+- **Asana**: Task revision history
+- **Monday.com**: Item change log
+- **Notion**: Page version history
+
+### 14. **Financial Software**
+- **QuickBooks**: Transaction history
+- **Mint**: Budget snapshots
+- **TurboTax**: Return versions
+- **Excel**: Workbook versions
+- **Banking apps**: Transaction history
+
+### 15. **Configuration Management**
+- **Kubernetes**: ConfigMap versions
+- **Terraform**: State files
+- **Ansible**: Playbook history
+- **Chef**: Cookbook versions
+- **Puppet**: Configuration snapshots

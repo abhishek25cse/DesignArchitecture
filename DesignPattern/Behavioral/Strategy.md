@@ -297,3 +297,110 @@ class SortContext {
 - Need different variants of an algorithm
 - Algorithm uses data that clients shouldn't know about
 - Class defines many behaviors as multiple conditional statements
+
+## Current World Examples & Famous Products
+
+### 1. **Navigation & Maps**
+- **Google Maps**: Route strategies (fastest, shortest, avoid tolls, avoid highways)
+- **Waze**: Dynamic routing based on traffic
+- **Apple Maps**: Route preferences
+- **Uber**: Route optimization strategies
+- **GPS devices**: Multiple routing algorithms
+
+### 2. **Payment Processing**
+- **Stripe**: Multiple payment strategies (card, bank transfer, wallet)
+- **PayPal**: Payment method selection
+- **Amazon**: Payment options (credit card, gift card, pay later)
+- **Square**: Various payment acceptance strategies
+- **Apple Pay**: Tokenization strategies
+
+### 3. **E-Commerce Shipping**
+- **Amazon**: Shipping strategies (standard, prime, same-day)
+- **FedEx**: Delivery speed options
+- **UPS**: Shipping method selection
+- **USPS**: Mail class strategies
+- **DHL**: International shipping options
+
+### 4. **Compression & Encoding**
+- **WinRAR**: Compression algorithms (ZIP, RAR, 7z)
+- **7-Zip**: Multiple compression strategies
+- **FFmpeg**: Video encoding strategies (H.264, H.265, VP9)
+- **Handbrake**: Preset encoding strategies
+- **ImageMagick**: Image compression strategies
+
+### 5. **Sorting & Searching**
+- **Excel**: Sort strategies (ascending, descending, custom)
+- **Google Search**: Ranking algorithms
+- **Database systems**: Query optimization strategies
+- **File explorers**: Sort by name, date, size, type
+- **E-commerce**: Product sorting (price, popularity, rating)
+
+### 6. **Authentication**
+- **Auth0**: Multiple authentication strategies (OAuth, SAML, LDAP)
+- **Passport.js**: Authentication strategy plugins
+- **Okta**: Identity provider strategies
+- **Firebase Auth**: Sign-in method strategies
+- **Azure AD**: Authentication protocol strategies
+
+### 7. **Data Validation**
+- **Form validators**: Different validation strategies per field
+- **Stripe**: Payment validation strategies
+- **Express Validator**: Validation chain strategies
+- **Joi**: Schema validation strategies
+- **Yup**: Object schema validation
+
+### 8. **Pricing & Discounts**
+- **Amazon**: Pricing strategies (regular, sale, lightning deal)
+- **Uber**: Surge pricing strategy
+- **Airlines**: Dynamic pricing strategies
+- **Hotels**: Seasonal pricing strategies
+- **SaaS products**: Tiered pricing strategies
+
+### 9. **Caching**
+- **Redis**: Eviction strategies (LRU, LFU, TTL)
+- **Memcached**: Cache replacement strategies
+- **CDN**: Cache invalidation strategies
+- **Browser cache**: Caching policies
+- **Varnish**: Cache storage strategies
+
+### 10. **Game AI**
+- **Chess engines**: Different AI difficulty strategies
+- **Civilization**: AI personality strategies
+- **StarCraft**: Bot behavior strategies
+- **FIFA**: Difficulty level strategies
+- **Racing games**: Opponent AI strategies
+
+### 11. **Image Processing**
+- **Photoshop**: Filter strategies, blend modes
+- **Instagram**: Photo filter strategies
+- **GIMP**: Image manipulation strategies
+- **Lightroom**: Preset strategies
+- **Canva**: Design template strategies
+
+### 12. **Backup & Sync**
+- **Dropbox**: Sync strategies (selective, full)
+- **Google Drive**: Backup strategies
+- **Time Machine**: Backup scheduling strategies
+- **Acronis**: Backup type strategies
+- **Carbonite**: Continuous backup strategies
+
+### 13. **Load Balancing**
+- **Nginx**: Load balancing algorithms (round-robin, least connections)
+- **HAProxy**: Distribution strategies
+- **AWS ELB**: Routing strategies
+- **Kubernetes**: Service distribution strategies
+- **Azure Load Balancer**: Traffic distribution
+
+### 14. **Recommendation Systems**
+- **Netflix**: Content recommendation strategies
+- **Spotify**: Music discovery strategies
+- **Amazon**: Product recommendation strategies
+- **YouTube**: Video suggestion strategies
+- **LinkedIn**: Connection suggestion strategies
+
+### 15. **Testing Frameworks**
+- **Jest**: Test execution strategies
+- **Selenium**: Browser testing strategies
+- **JUnit**: Test runner strategies
+- **Pytest**: Test collection strategies
+- **Mocha**: Test reporter strategies

@@ -318,3 +318,110 @@ class CharacterFactory {
 - Most object state can be made extrinsic
 - Many groups of objects may be replaced by relatively few shared objects
 - Application doesn't depend on object identity
+
+## Current World Examples & Famous Products
+
+### 1. **Text Editors & Word Processors**
+- **Microsoft Word**: Character objects shared across document
+- **Google Docs**: Glyph sharing for text rendering
+- **VS Code**: Token sharing for syntax highlighting
+- **Sublime Text**: Shared character representations
+- **Notepad++**: Text buffer optimization
+
+### 2. **Web Browsers**
+- **Chrome**: String interning, shared CSS styles
+- **Firefox**: Shared font glyphs
+- **Safari**: WebKit string deduplication
+- **Edge**: Shared DOM node styles
+- **Opera**: Resource caching and sharing
+
+### 3. **Gaming**
+- **Minecraft**: Block type sharing (millions of blocks, few types)
+- **Fortnite**: Shared textures and models
+- **World of Warcraft**: NPC model sharing
+- **Unity**: Prefab instantiation with shared data
+- **Unreal Engine**: Static mesh instancing
+
+### 4. **Graphics & Design**
+- **Photoshop**: Brush tip sharing
+- **Illustrator**: Symbol libraries (shared graphics)
+- **Figma**: Component instances sharing properties
+- **Sketch**: Symbol overrides with shared base
+- **Blender**: Linked duplicates
+
+### 5. **Database Systems**
+- **Oracle**: Shared pool for SQL statements
+- **MySQL**: Query cache sharing
+- **PostgreSQL**: Shared buffer cache
+- **MongoDB**: Connection pooling
+- **Redis**: String interning
+
+### 6. **Java & JVM**
+- **String Pool**: Shared string literals
+- **Integer Cache**: Cached Integer objects (-128 to 127)
+- **Enum**: Single instance per enum constant
+- **Class metadata**: Shared across instances
+- **Bytecode**: Shared method bytecode
+
+### 7. **Mobile Apps**
+- **Instagram**: Image thumbnail caching
+- **Facebook**: News feed item recycling
+- **Twitter/X**: Tweet template sharing
+- **WhatsApp**: Message bubble reuse
+- **Spotify**: Album art caching
+
+### 8. **Map Applications**
+- **Google Maps**: Tile caching and reuse
+- **Apple Maps**: Map tile sharing
+- **Waze**: Icon and marker sharing
+- **OpenStreetMap**: Tile server caching
+- **Mapbox**: Vector tile sharing
+
+### 9. **E-Commerce**
+- **Amazon**: Product image caching
+- **eBay**: Listing template sharing
+- **Shopify**: Theme asset sharing
+- **Etsy**: Product photo optimization
+- **AliExpress**: Image CDN caching
+
+### 10. **Social Media**
+- **Instagram**: Filter presets sharing
+- **TikTok**: Effect templates
+- **Snapchat**: Lens sharing
+- **Pinterest**: Pin image caching
+- **LinkedIn**: Profile template sharing
+
+### 11. **Cloud Services**
+- **AWS Lambda**: Container reuse
+- **Docker**: Layer sharing between images
+- **Kubernetes**: ConfigMap and Secret sharing
+- **Azure Functions**: Execution context sharing
+- **Google Cloud Run**: Container instance pooling
+
+### 12. **Office Suites**
+- **Microsoft Office**: Font glyph sharing
+- **Google Workspace**: Template sharing
+- **LibreOffice**: Style template sharing
+- **Apple iWork**: Theme element sharing
+- **WPS Office**: Resource sharing
+
+### 13. **Streaming Services**
+- **Netflix**: Thumbnail caching
+- **YouTube**: Video chunk caching
+- **Spotify**: Audio chunk sharing
+- **Twitch**: Emote caching
+- **Disney+**: Asset preloading
+
+### 14. **Development Tools**
+- **Git**: Object deduplication
+- **npm**: Package caching
+- **Docker**: Image layer caching
+- **Webpack**: Module caching
+- **Maven**: Dependency caching
+
+### 15. **Operating Systems**
+- **Windows**: DLL sharing between processes
+- **Linux**: Shared libraries (.so files)
+- **macOS**: Framework sharing
+- **Android**: Shared system resources
+- **iOS**: Shared frameworks and libraries

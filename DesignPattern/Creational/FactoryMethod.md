@@ -401,3 +401,65 @@ class ProductFactory {
 - A class wants its subclasses to specify the objects it creates
 - Classes delegate responsibility to one of several helper subclasses
 - You want to localize the knowledge of which helper subclass is the delegate
+
+## Current World Examples & Famous Products
+
+### 1. **Social Media Platforms**
+- **Facebook**: Different post types (text, image, video, story) created via factory methods
+- **Twitter/X**: Tweet factory creates different tweet types (regular, retweet, quote tweet)
+- **LinkedIn**: Content factory creates posts, articles, polls, events
+- **Instagram**: Media factory creates photos, videos, reels, stories
+
+### 2. **E-Commerce Platforms**
+- **Amazon**: Product factory creates different product types (physical, digital, subscription)
+- **Shopify**: Payment method factory (credit card, PayPal, Apple Pay, cryptocurrency)
+- **eBay**: Listing factory creates auction, buy-it-now, or classified listings
+- **Etsy**: Shop item factory for handmade, vintage, or craft supplies
+
+### 3. **Streaming Services**
+- **Netflix**: Content factory creates movies, series, documentaries, interactive content
+- **YouTube**: Video factory creates regular videos, shorts, live streams, premieres
+- **Spotify**: Playlist factory creates user playlists, algorithmic playlists, radio stations
+- **Twitch**: Stream factory creates live streams, VODs, clips, highlights
+
+### 4. **Cloud Platforms**
+- **AWS**: EC2 instance factory creates different instance types (t2, m5, c5, etc.)
+- **Microsoft Azure**: Virtual machine factory for different VM sizes and configurations
+- **Google Cloud**: Compute engine factory for various machine types
+- **DigitalOcean**: Droplet factory for different droplet sizes
+
+### 5. **Development Tools**
+- **Visual Studio**: Project factory creates different project types (console, web, mobile)
+- **Android Studio**: Activity factory creates different activity types
+- **Xcode**: View controller factory for different iOS view types
+- **Eclipse**: Workspace factory for different project natures
+
+### 6. **Database Systems**
+- **MongoDB**: Document factory for different document types
+- **PostgreSQL**: Connection factory for different connection types
+- **Redis**: Data structure factory (strings, lists, sets, hashes)
+- **Elasticsearch**: Index factory for different index types
+
+### 7. **Gaming Platforms**
+- **Steam**: Game launcher factory for different game types
+- **Epic Games**: Asset factory in Unreal Engine for different asset types
+- **PlayStation Network**: Download factory for games, DLC, updates
+- **Xbox Live**: Content factory for games, apps, media
+
+### 8. **Communication Apps**
+- **Slack**: Message factory creates text, file, code snippet messages
+- **Microsoft Teams**: Meeting factory creates instant, scheduled, or recurring meetings
+- **Zoom**: Session factory for meetings, webinars, phone calls
+- **Discord**: Channel factory creates text, voice, announcement channels
+
+### 9. **Payment Systems**
+- **Stripe**: Payment method factory for cards, bank transfers, wallets
+- **PayPal**: Transaction factory for payments, refunds, subscriptions
+- **Square**: Payment factory for in-person, online, invoice payments
+- **Venmo**: Transfer factory for peer-to-peer, business payments
+
+### 10. **Transportation Apps**
+- **Uber**: Ride factory creates UberX, UberXL, Uber Black, Uber Pool
+- **Lyft**: Ride type factory for standard, shared, luxury rides
+- **DoorDash**: Order factory for delivery, pickup orders
+- **Airbnb**: Listing factory for entire place, private room, shared room

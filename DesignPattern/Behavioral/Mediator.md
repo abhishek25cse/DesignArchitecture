@@ -377,3 +377,110 @@ public class ChatDemo {
 - Set of objects communicate in well-defined but complex ways
 - Reusing an object is difficult because it refers to and communicates with many other objects
 - Behavior distributed between several classes should be customizable without lots of subclassing
+
+## Current World Examples & Famous Products
+
+### 1. **Chat Applications**
+- **Slack**: Channel mediator for user messages
+- **Discord**: Server mediator for channel communication
+- **Microsoft Teams**: Team mediator for collaboration
+- **WhatsApp**: Group chat mediator
+- **Telegram**: Group and channel mediator
+
+### 2. **Air Traffic Control**
+- **Flight management systems**: Coordinating aircraft communication
+- **Airport tower**: Mediating runway assignments
+- **Air traffic control**: Managing flight paths
+- **Ground control**: Coordinating ground movements
+- **Approach control**: Managing landing sequences
+
+### 3. **Stock Trading Platforms**
+- **NASDAQ**: Order matching mediator
+- **NYSE**: Trade execution mediator
+- **Robinhood**: Order routing mediator
+- **E*TRADE**: Trade coordination
+- **Interactive Brokers**: Multi-market mediator
+
+### 4. **Smart Home Hubs**
+- **Amazon Alexa**: Device coordination mediator
+- **Google Home**: Smart home device mediator
+- **Apple HomeKit**: Accessory communication mediator
+- **SmartThings Hub**: IoT device mediator
+- **Home Assistant**: Device integration mediator
+
+### 5. **Game Multiplayer Systems**
+- **Game servers**: Player interaction mediator
+- **Matchmaking systems**: Player pairing mediator
+- **Lobby systems**: Team formation mediator
+- **Voice chat**: Communication mediator
+- **Dedicated servers**: Game state mediator
+
+### 6. **UI Frameworks**
+- **React**: Component communication via props/context
+- **Angular**: Service mediator for components
+- **Vue.js**: Event bus mediator
+- **Redux**: State management mediator
+- **MobX**: Observable state mediator
+
+### 7. **Message Brokers**
+- **RabbitMQ**: Message routing mediator
+- **Apache Kafka**: Event streaming mediator
+- **Redis Pub/Sub**: Message distribution mediator
+- **AWS SQS**: Queue mediator
+- **Azure Service Bus**: Message mediator
+
+### 8. **Workflow Orchestration**
+- **Apache Airflow**: Task coordination mediator
+- **Kubernetes**: Container orchestration mediator
+- **AWS Step Functions**: Workflow mediator
+- **Temporal**: Workflow execution mediator
+- **Camunda**: Process orchestration mediator
+
+### 9. **Social Media Platforms**
+- **Facebook**: News feed mediator
+- **Twitter/X**: Timeline mediator
+- **Instagram**: Feed algorithm mediator
+- **LinkedIn**: Connection mediator
+- **TikTok**: For You page mediator
+
+### 10. **E-Commerce Marketplaces**
+- **Amazon**: Buyer-seller mediator
+- **eBay**: Auction mediator
+- **Etsy**: Shop-customer mediator
+- **Alibaba**: B2B transaction mediator
+- **Shopify**: Store-customer mediator
+
+### 11. **Video Conferencing**
+- **Zoom**: Meeting mediator
+- **Microsoft Teams**: Call mediator
+- **Google Meet**: Conference mediator
+- **Webex**: Session mediator
+- **Jitsi**: Video bridge mediator
+
+### 12. **API Gateways**
+- **Kong**: Service communication mediator
+- **AWS API Gateway**: Request routing mediator
+- **Azure API Management**: API mediator
+- **Apigee**: API orchestration mediator
+- **Tyk**: API coordination mediator
+
+### 13. **Event-Driven Systems**
+- **AWS EventBridge**: Event routing mediator
+- **Azure Event Grid**: Event distribution mediator
+- **Google Cloud Pub/Sub**: Message mediator
+- **Apache Pulsar**: Event streaming mediator
+- **NATS**: Messaging system mediator
+
+### 14. **Collaboration Tools**
+- **Notion**: Workspace collaboration mediator
+- **Confluence**: Team documentation mediator
+- **Miro**: Whiteboard collaboration mediator
+- **Figma**: Design collaboration mediator
+- **Google Workspace**: Document collaboration mediator
+
+### 15. **MVC Frameworks**
+- **Spring MVC**: Controller as mediator
+- **Django**: View as mediator
+- **Ruby on Rails**: Controller mediator
+- **ASP.NET MVC**: Controller coordination
+- **Laravel**: Controller mediator

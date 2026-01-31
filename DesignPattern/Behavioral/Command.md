@@ -393,3 +393,110 @@ class CommandHistory {
 - Support undo operations
 - Support logging changes
 - Structure system around high-level operations built on primitive operations
+
+## Current World Examples & Famous Products
+
+### 1. **Text Editors & IDEs**
+- **Microsoft Word**: Undo/redo operations for text editing
+- **Google Docs**: Command history for collaborative editing
+- **VS Code**: Edit operations, refactoring commands
+- **Sublime Text**: Multiple cursor commands
+- **IntelliJ IDEA**: Refactoring and code transformation commands
+
+### 2. **Graphics & Design Software**
+- **Photoshop**: Layer operations, filter applications (undo/redo)
+- **Illustrator**: Shape transformations, path operations
+- **Figma**: Design changes with undo/redo
+- **Sketch**: Layer modifications
+- **GIMP**: Image manipulation commands
+
+### 3. **Smart Home Systems**
+- **Amazon Alexa**: Voice commands ("Turn on lights", "Set temperature")
+- **Google Home**: Device control commands
+- **Apple HomeKit**: Scene commands, automation
+- **SmartThings**: Routine commands
+- **IFTTT**: Applet commands
+
+### 4. **Task Schedulers & Automation**
+- **Cron**: Scheduled command execution
+- **Windows Task Scheduler**: Automated task commands
+- **Jenkins**: Build job commands
+- **Airflow**: DAG task commands
+- **Zapier**: Workflow action commands
+
+### 5. **Version Control Systems**
+- **Git**: Commit, revert, cherry-pick commands
+- **SVN**: Checkout, commit, revert operations
+- **Mercurial**: Changeset operations
+- **Perforce**: Submit, revert commands
+- **GitHub Actions**: Workflow commands
+
+### 6. **Database Systems**
+- **SQL**: Transaction commands (BEGIN, COMMIT, ROLLBACK)
+- **MongoDB**: Database operation commands
+- **Redis**: Command queue execution
+- **PostgreSQL**: Prepared statements
+- **MySQL**: Stored procedures
+
+### 7. **Game Development**
+- **Unity**: Player action commands, input system
+- **Unreal Engine**: Blueprint commands
+- **Game replays**: Recorded command playback
+- **RTS games**: Unit commands (move, attack, build)
+- **Fighting games**: Combo commands
+
+### 8. **Remote Controls & IoT**
+- **TV remotes**: Button press commands
+- **Universal remotes**: Macro commands
+- **Smart thermostats**: Temperature adjustment commands
+- **Robot vacuums**: Cleaning commands
+- **Drone controllers**: Flight commands
+
+### 9. **E-Commerce & Shopping**
+- **Amazon**: Order placement, cancellation commands
+- **Shopping carts**: Add, remove, update quantity commands
+- **Shopify**: Inventory management commands
+- **Payment processing**: Transaction commands
+- **Refund systems**: Return processing commands
+
+### 10. **Email Clients**
+- **Gmail**: Email actions (archive, delete, mark as read)
+- **Outlook**: Message operations, rules
+- **Apple Mail**: Mailbox operations
+- **Thunderbird**: Filter commands
+- **ProtonMail**: Encryption commands
+
+### 11. **Media Players**
+- **VLC**: Playback commands (play, pause, skip)
+- **Spotify**: Queue management commands
+- **YouTube**: Video control commands
+- **Netflix**: Playback control
+- **iTunes**: Library management commands
+
+### 12. **Build Systems**
+- **Make**: Build target commands
+- **Gradle**: Task execution commands
+- **Maven**: Goal execution commands
+- **npm scripts**: Package commands
+- **Webpack**: Build configuration commands
+
+### 13. **Cloud Services**
+- **AWS CLI**: Service operation commands
+- **Azure CLI**: Resource management commands
+- **Google Cloud SDK**: gcloud commands
+- **Kubernetes**: kubectl commands
+- **Docker**: Container management commands
+
+### 14. **Messaging Apps**
+- **Slack**: Slash commands, bot commands
+- **Discord**: Bot commands, moderation actions
+- **Telegram**: Bot commands
+- **WhatsApp**: Message actions
+- **Microsoft Teams**: Bot framework commands
+
+### 15. **Operating Systems**
+- **Windows**: System commands, PowerShell cmdlets
+- **macOS**: Terminal commands, Automator actions
+- **Linux**: Shell commands, systemd commands
+- **Android**: Intent commands
+- **iOS**: Shortcuts app commands

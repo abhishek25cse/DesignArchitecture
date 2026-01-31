@@ -331,3 +331,110 @@ class OutOfStockState implements VendingMachineState {
 - Object's behavior depends on its state
 - Operations have large, multipart conditional statements that depend on object's state
 - State-specific behavior should be defined independently
+
+## Current World Examples & Famous Products
+
+### 1. **E-Commerce Order Management**
+- **Amazon**: Order states (pending, processing, shipped, delivered, cancelled)
+- **Shopify**: Order lifecycle management
+- **eBay**: Listing states (draft, active, sold, ended)
+- **Etsy**: Shop order states
+- **PayPal**: Transaction states
+
+### 2. **Document Workflows**
+- **Google Docs**: Document states (draft, reviewing, approved, published)
+- **Microsoft Word**: Track changes states
+- **Confluence**: Page approval workflow
+- **Notion**: Page publishing states
+- **Adobe Sign**: Document signing workflow
+
+### 3. **Project Management**
+- **Jira**: Issue states (to do, in progress, review, done)
+- **Trello**: Card states across lists
+- **Asana**: Task status workflow
+- **Monday.com**: Item status columns
+- **GitHub**: Issue and PR states
+
+### 4. **Media Players**
+- **Spotify**: Player states (playing, paused, stopped, buffering)
+- **YouTube**: Video player states
+- **Netflix**: Playback states
+- **VLC**: Media player states
+- **iTunes**: Playback and sync states
+
+### 5. **Gaming**
+- **Game characters**: States (idle, walking, running, jumping, attacking)
+- **Unity**: Animator state machines
+- **Unreal Engine**: State machine blueprints
+- **Fighting games**: Character animation states
+- **RPGs**: Quest states (available, active, completed, failed)
+
+### 6. **Network Connections**
+- **TCP**: Connection states (closed, listen, established, closing)
+- **WebSocket**: Connection lifecycle states
+- **VPN clients**: Connection states
+- **Bluetooth**: Pairing states
+- **WiFi**: Connection states
+
+### 7. **Vending Machines & ATMs**
+- **ATM**: Transaction states (idle, card inserted, PIN entered, processing)
+- **Vending machines**: Selection and payment states
+- **Parking meters**: Payment and time states
+- **Self-checkout**: Scanning and payment states
+- **Ticket machines**: Purchase workflow states
+
+### 8. **Mobile Apps**
+- **iOS**: App lifecycle states (not running, inactive, active, background)
+- **Android**: Activity lifecycle states
+- **React Native**: Component lifecycle states
+- **Flutter**: Widget lifecycle states
+- **Xamarin**: Page lifecycle states
+
+### 9. **Communication Apps**
+- **WhatsApp**: Message states (sending, sent, delivered, read)
+- **Slack**: Message delivery states
+- **Email**: Message states (draft, sending, sent, failed)
+- **Telegram**: Message status indicators
+- **Discord**: Message states
+
+### 10. **Smart Home Devices**
+- **Nest Thermostat**: Heating, cooling, off states
+- **Smart lights**: On, off, dimming states
+- **Smart locks**: Locked, unlocked, jammed states
+- **Robot vacuums**: Cleaning, charging, idle, error states
+- **Smart speakers**: Listening, processing, responding states
+
+### 11. **Transportation Apps**
+- **Uber**: Ride states (requesting, accepted, arriving, in progress, completed)
+- **Lyft**: Trip lifecycle states
+- **DoorDash**: Delivery states
+- **Airbnb**: Booking states
+- **Flight booking**: Reservation states
+
+### 12. **Authentication & Security**
+- **Auth0**: Session states
+- **OAuth**: Authorization flow states
+- **2FA**: Authentication states
+- **Password reset**: Recovery workflow states
+- **Account verification**: Verification states
+
+### 13. **CI/CD Pipelines**
+- **Jenkins**: Build states (queued, running, success, failure)
+- **GitHub Actions**: Workflow run states
+- **GitLab CI**: Pipeline states
+- **CircleCI**: Job states
+- **Travis CI**: Build lifecycle states
+
+### 14. **Payment Processing**
+- **Stripe**: Payment intent states
+- **PayPal**: Transaction states
+- **Square**: Payment states
+- **Checkout flows**: Multi-step payment states
+- **Refund processing**: Refund states
+
+### 15. **Healthcare Systems**
+- **Patient records**: Treatment states
+- **Appointment scheduling**: Appointment states
+- **Prescription management**: Prescription states
+- **Lab results**: Test states (ordered, collected, processing, completed)
+- **Insurance claims**: Claim states
