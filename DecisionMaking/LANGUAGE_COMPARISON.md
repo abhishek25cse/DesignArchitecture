@@ -1191,4 +1191,5 @@ This document provides an exhaustive comparison of five major languages—Java, 
 
 **Document Version:** 1.0  
 **Last Updated:** January 2026  
-**Author:** Architecture Decision Framework
+**Author:** Architecture Decision Framework - Abhishek &copy
+
