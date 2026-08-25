@@ -16,11 +16,18 @@ Before looking at any code or protocols, you must understand the difference betw
 | **OAuth 2.0** | Authorization (API Access) | Hotel Room Key Card | Opaque String / JSON |
 | **OIDC** | Authentication (Modern App Login)| DigiLocker Profile | JWT (Lightweight JSON) |
 ---
-## 1. SAML 2.0 (Security Assertion Markup Language)### The Real-World AnalogyImagine you work in a massive tech park in Bengaluru (like Manyata Tech Park). You enter through the main security gate. The central security desk checks your Aadhaar card and biometrics (**Identity Provider / IdP**). Instead of making you type your password at every single building inside, they hand you a stamped, tamper-proof corporate entry pass (**SAML Assertion**). 
+## 1. SAML 2.0 (Security Assertion Markup Language)
+### The Real-World Analogy Imagine you work in a massive tech park in Bengaluru (like Manyata Tech Park). You enter through the main security gate. The central security desk checks your Aadhaar card and biometrics (**Identity Provider / IdP**). Instead of making you type your password at every single building inside, they hand you a stamped, tamper-proof corporate entry pass (**SAML Assertion**). 
 
 When you go to the cafeteria or the gym building (**Service Provider / SP**), the guard at the door doesn't ask for your password. They look at the stamp, check the signature, and let you in.
-### 🏢 Real Indian Scenarios*   **Infosys/TCS Employee Portal:** An engineer logs into **InfyMe** or **Ultimatix** once. When they click a link to view their health insurance provider (**Medi Assist**) or check their **Provident Fund (PF)** dashboard, they are logged in automatically without entering another password.*   **State Bank of India (SBI) Internal Tools:** A branch officer logs into the core banking terminal. When they need to verify a business's tax status on the internal **Income Tax Department Portal**, a SAML link securely passes their pre-authenticated banking identity directly to the government portal.
-### 📊 UML Sequence Diagram: SAML 2.0 Flow*This diagram displays the Service Provider-Initiated (SP-Initiated) flow, which triggers when a user tries to access a corporate app directly.*
+
+### 🏢 Real Indian Scenarios*   
+**Infosys/TCS Employee Portal:**
+ An engineer logs into **InfyMe** or **Ultimatix** once. When they click a link to view their health insurance provider (**Medi Assist**) or check their **Provident Fund (PF)** dashboard, they are logged in automatically without entering another password.*  
+**State Bank of India (SBI) Internal Tools:** 
+ A branch officer logs into the core banking terminal. When they need to verify a business's tax status on the internal **Income Tax Department Portal**, a SAML link securely passes their pre-authenticated banking identity directly to the government portal.
+### 📊 UML Sequence Diagram: SAML 2.0 Flow
+*This diagram displays the Service Provider-Initiated (SP-Initiated) flow, which triggers when a user tries to access a corporate app directly.*
 ```mermaid
 sequenceDiagram
     autonumber
