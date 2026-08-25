@@ -63,8 +63,7 @@ Imagine you check into a luxury hotel in Goa. You show your passport at the fron
 
 The key card doesn't say your name or list your home address. It contains a hidden electronic signature that tells the elevator door or your room lock (**Resource Server / API**): *"Allow whoever holds this card to unlock Room 305 until Friday noon."*
 ### 📱 Real Indian Scenarios   
-**Cred Scanning Your Bills:** 
-You want the **Cred** app to track your credit card bills automatically. Cred prompts you to link your Google account. Google displays a screen asking: *"Do you allow Cred to read emails matching your bank name?"* When you hit allow, Google passes Cred a limited **Access Token**. Cred can read your statements, but it **never** sees or knows your Google password.*   
+**Cred Scanning Your Bills:** You want the **Cred** app to track your credit card bills automatically. Cred prompts you to link your Google account. Google displays a screen asking: *"Do you allow Cred to read emails matching your bank name?"* When you hit allow, Google passes Cred a limited **Access Token**. Cred can read your statements, but it **never** sees or knows your Google password.*   
 **Canva Pulling Instagram Assets:** 
 When designing graphics on **Canva**, you can connect your **Instagram** library to drop in photos. Instagram issues an OAuth token to Canva allowing read-only access to your photo gallery API while keeping your account credentials entirely safe.
 ---
