@@ -22,8 +22,10 @@ Before looking at any code or protocols, you must understand the difference betw
 When you go to the cafeteria or the gym building (**Service Provider / SP**), the guard at the door doesn't ask for your password. They look at the stamp, check the signature, and let you in.
 
 ### 🏢 Real Indian Scenarios*   
+
 **Infosys/TCS Employee Portal:**
  An engineer logs into **InfyMe** or **Ultimatix** once. When they click a link to view their health insurance provider (**Medi Assist**) or check their **Provident Fund (PF)** dashboard, they are logged in automatically without entering another password.*  
+ 
 **State Bank of India (SBI) Internal Tools:** 
  A branch officer logs into the core banking terminal. When they need to verify a business's tax status on the internal **Income Tax Department Portal**, a SAML link securely passes their pre-authenticated banking identity directly to the government portal.
 ### 📊 UML Sequence Diagram: SAML 2.0 Flow
