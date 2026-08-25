@@ -5,7 +5,8 @@
 Before looking at any code or protocols, you must understand the difference between **Authentication** and **Authorization**. Missing this distinction is where most engineering students get confused!
 *   **Authentication (AuthN) = "Who are you?"**  
     *Proven by:* Your fingerprint, face ID, username/password, or an OTP sent to your phone.
-    *Goal:* To verify your identity claim beyond doubt.*   **Authorization (AuthZ) = "What are you allowed to do?"**  
+    *Goal:* To verify your identity claim beyond doubt.
+*   **Authorization (AuthZ) = "What are you allowed to do?"**  
     *Proven by:* A wristband at a music festival, a movie ticket stub, or a key card.
     *Goal:* Checking permissions *after* we already know you are a valid user.
 ### At-a-Glance Matrix
@@ -14,7 +15,8 @@ Before looking at any code or protocols, you must understand the difference betw
 | **SAML 2.0** | Authentication (Enterprise) | Corporate ID Card | XML (Heavy & Verbose) |
 | **OAuth 2.0** | Authorization (API Access) | Hotel Room Key Card | Opaque String / JSON |
 | **OIDC** | Authentication (Modern App Login)| DigiLocker Profile | JWT (Lightweight JSON) |
----## 1. SAML 2.0 (Security Assertion Markup Language)### The Real-World AnalogyImagine you work in a massive tech park in Bengaluru (like Manyata Tech Park). You enter through the main security gate. The central security desk checks your Aadhaar card and biometrics (**Identity Provider / IdP**). Instead of making you type your password at every single building inside, they hand you a stamped, tamper-proof corporate entry pass (**SAML Assertion**). 
+---
+## 1. SAML 2.0 (Security Assertion Markup Language)### The Real-World AnalogyImagine you work in a massive tech park in Bengaluru (like Manyata Tech Park). You enter through the main security gate. The central security desk checks your Aadhaar card and biometrics (**Identity Provider / IdP**). Instead of making you type your password at every single building inside, they hand you a stamped, tamper-proof corporate entry pass (**SAML Assertion**). 
 
 When you go to the cafeteria or the gym building (**Service Provider / SP**), the guard at the door doesn't ask for your password. They look at the stamp, check the signature, and let you in.
 ### 🏢 Real Indian Scenarios*   **Infosys/TCS Employee Portal:** An engineer logs into **InfyMe** or **Ultimatix** once. When they click a link to view their health insurance provider (**Medi Assist**) or check their **Provident Fund (PF)** dashboard, they are logged in automatically without entering another password.*   **State Bank of India (SBI) Internal Tools:** A branch officer logs into the core banking terminal. When they need to verify a business's tax status on the internal **Income Tax Department Portal**, a SAML link securely passes their pre-authenticated banking identity directly to the government portal.
