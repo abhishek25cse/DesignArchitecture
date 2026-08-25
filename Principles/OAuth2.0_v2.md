@@ -62,14 +62,23 @@ sequenceDiagram
 Imagine you check into a luxury hotel in Goa. You show your passport at the front desk (Authentication). The receptionist does not give you a copy of the hotel's master keys or your passport back to unlock doors. Instead, they hand you a plastic **Electronic Key Card** (**Access Token**). 
 
 The key card doesn't say your name or list your home address. It contains a hidden electronic signature that tells the elevator door or your room lock (**Resource Server / API**): *"Allow whoever holds this card to unlock Room 305 until Friday noon."*
-### 📱 Real Indian Scenarios*   
+### 📱 Real Indian Scenarios   
 **Cred Scanning Your Bills:** 
-You want the **Cred** app to track your credit card bills automatically. Cred prompts you to link your Google account. Google displays a screen asking: *"Do you allow Cred to read emails matching your bank name?"* When you hit allow, Google passes Cred a limited **Access Token**. Cred can read your statements, but it **never** sees or knows your Google password.*   **Canva Pulling Instagram Assets:** When designing graphics on **Canva**, you can connect your **Instagram** library to drop in photos. Instagram issues an OAuth token to Canva allowing read-only access to your photo gallery API while keeping your account credentials entirely safe.
----## 3. OpenID Connect (OIDC)### The Real-World AnalogyOAuth 2.0 was designed *strictly* for access cards, not for user identity. It tells a door to unlock, but it doesn't tell the door *who* unlocked it. 
+You want the **Cred** app to track your credit card bills automatically. Cred prompts you to link your Google account. Google displays a screen asking: *"Do you allow Cred to read emails matching your bank name?"* When you hit allow, Google passes Cred a limited **Access Token**. Cred can read your statements, but it **never** sees or knows your Google password.*   
+**Canva Pulling Instagram Assets:** 
+When designing graphics on **Canva**, you can connect your **Instagram** library to drop in photos. Instagram issues an OAuth token to Canva allowing read-only access to your photo gallery API while keeping your account credentials entirely safe.
+---
+## 3. OpenID Connect (OIDC)### 
+The Real-World AnalogyOAuth 2.0 was designed *strictly* for access cards, not for user identity. It tells a door to unlock, but it doesn't tell the door *who* unlocked it. 
 
 To fix this, engineers built **OIDC** directly on top of OAuth 2.0. Think of OIDC as attaching a **DigiLocker Identity Profile** right next to your access card. Now, when you present your token, you get an access pass (**Access Token**) alongside a clear, digitally signed identity slip (**ID Token**) containing your verified profile picture, full name, and email address.
-### 📱 Real Indian Scenarios*   **Swiggy / Zomato Express Registration:** You open **Swiggy** for the first time and tap **"Continue with Google"**. Google validates your smartphone's biometric face lock and hands Swiggy an identity token (**ID Token**). Swiggy instantly reads your verified name and email to set up your profile without requiring a new registration form.*   **ClearTax Login Integration:** Instead of generating and memorizing a complex password for tax preparation tools like **ClearTax**, you choose **"Log in with Microsoft/Google"**. The provider signs you in securely and transmits your verified enterprise identity profile straight to ClearTax.
----## 🔄 The Modern Master Flow: OIDC + OAuth 2.0 with PKCE
+### 📱 Real Indian Scenarios
+**Swiggy / Zomato Express Registration:** 
+You open **Swiggy** for the first time and tap **"Continue with Google"**. Google validates your smartphone's biometric face lock and hands Swiggy an identity token (**ID Token**). Swiggy instantly reads your verified name and email to set up your profile without requiring a new registration form.   
+**ClearTax Login Integration:** 
+Instead of generating and memorizing a complex password for tax preparation tools like **ClearTax**, you choose **"Log in with Microsoft/Google"**. The provider signs you in securely and transmits your verified enterprise identity profile straight to ClearTax.
+---
+## 🔄 The Modern Master Flow: OIDC + OAuth 2.0 with PKCE
 Modern mobile and frontend web apps use a highly secure workflow called the **Authorization Code Flow with PKCE** (Proof Key for Code Exchange). It prevents hackers from hijacking intermediate tokens mid-air.
 ### 📊 UML Sequence Diagram: Combined OIDC & OAuth 2.0 Flow
 ```mermaid
